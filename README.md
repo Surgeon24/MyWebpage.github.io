@@ -1,1 +1,1 @@
-# MyWebpage.github.io
+This repository hosts my personal webpage, accessible [here](https://surgeon24.github.io/MyWebpage.github.io/). It showcases my projects and provides a glimpse into my journey in the world of technology.
