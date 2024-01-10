@@ -112,6 +112,22 @@ h3 {
   animation: ava-bg 3s infinite alternate;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects_title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.projects_list {
+  display: flex;
+}
+
 @media screen and (max-width: 978px) {
   .hero {
     padding-top: 30px;
@@ -149,7 +165,40 @@ h3 {
   }
 }
 
+.project_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
 
+.project_item {
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  user-select: none;
+}
+
+.project_item a {
+  text-decoration: none; /* Remove the underline */
+  color: #000; /* Set the color to black */
+}
+.project_item img {
+  max-width: 100%; /* Limit the maximum width to the container's width */
+  height: auto;
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.project_item h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.project_item p {
+  font-size: 16px;
+  color: #666;
+}
 
 @keyframes ava-animate {
   0% {
